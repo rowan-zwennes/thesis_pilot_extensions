@@ -53,7 +53,7 @@ Clone this repository, set the local Python version, and create a dedicated virt
 
 ```bash
 # Clone the project repository from your GitHub
-git clone https://github.com/[your-github-username]/[your-repository-name].git
+git clone https://github.com/rowan-zwennes/thesis_pilot_extensions.git
 
 # Navigate into the newly created project directory
 cd thesis_pilot_extensions/

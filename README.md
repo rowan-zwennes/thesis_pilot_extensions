@@ -47,7 +47,7 @@ To ensure full reproducibility, a detailed guide is provided for configuring a L
 ### 2. Reproducing Experiments
 Once the environment is configured, a second guide provides the step-by-step instructions for downloading the data, running the benchmark scripts, and generating the final results and plots.
 
-➡️ **For all experimental steps, see the [Guide to Reproducing Experiments](REPRODUCING_GUIDE.md).**
+➡️ **For all experimental steps, see the [Guide to Reproducing Experiments](REPRODUCTION_GUIDE.md).**
 
 ## Usage Example
 

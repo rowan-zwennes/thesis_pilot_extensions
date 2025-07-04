@@ -48,7 +48,6 @@ To ensure full reproducibility, a detailed guide is provided for configuring a L
 Once the environment is configured, a second guide provides the step-by-step instructions for downloading the data, running the benchmark scripts, and generating the final results and plots.
 
 ➡️ **For all experimental steps, see the [Guide to Reproducing Experiments](REPRODUCING_EXPERIMENTS.md).**
-*(Note: Please rename the file link if your guide is named differently)*
 
 ## Usage Example
 
@@ -57,6 +56,39 @@ The main experiments are executed using the `benchmark_new.py` script. After set
 For example, to run the PILOT and Random Forest models on the `boston` and `airfoil` datasets:
 ```bash
 python benchmark_new.py -e MyFirstRun -m PILOT,RF -d boston,airfoil
+
+For a detailed explanation of all arguments and models, please refer to the reproduction guide.
+
+## License
+
+The original PILOT project is licensed under the GPL-3.0 License. In accordance with its terms, this derivative work is also released under the **GNU General Public License v3.0**.
+
+## How to Cite
+
+This repository contains two levels of work: the original frameworks and the novel extensions developed in this thesis. Please cite appropriately.
+
+### Citing the Original Algorithms
+
+If you use the core PILOT or RaFFLE algorithms in your research, it is essential to cite the original publications:
+
+> Raymaekers, J., Rousseeuw, P. J., Verdonck, T., & Yao, R. (2024). Fast linear model trees by PILOT. *Machine Learning*, 1-50. https://doi.org/10.1007/s10994-024-06590-3.
+
+> Raymaekers, J., Rousseeuw, P. J., Servotte, T., Verdonck, T., & Yao, R. (2025). A Powerful Random Forest Featuring Linear Extensions (RaFFLE). https://doi.org/10.48550/arXiv.2502.10185
+
+### Citing This Thesis Work
+
+If you are specifically referencing the extensions, results, or code from this thesis, please cite this repository. The preferred method is to use the "Cite this repository" button on the right-hand side of the main repository page.
+
+Alternatively, you can use the following BibTeX entry for your thesis:
+
+```bibtex
+@mastersthesis{YourLastNameYYYYthesis,
+  author    = {Rowan Zwennes},
+  title     = {Enhancing PILOT Trees with Sparse Multivariate Models via Integrated Regularization},
+  school    = {Erasmus University},
+  year      = {2025},
+  note      = {Code available at: \url{https://github.com/[your-github-username]/thesis-pilot-extensions}}
+}
 
 
 

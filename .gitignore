@@ -1,0 +1,23 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore C/C++ compiled binary files
+*.so
+*.o
+build/
+
+# Ignore virtual environment folders
+.myprojectenv/
+venv/
+.venv/
+
+# Ignore generated output and data folders
+Output/
+Data_folder_thesis/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.DS_Store

@@ -82,15 +82,10 @@ If you are specifically referencing the extensions, results, or code from this t
 Alternatively, you can use the following BibTeX entry for your thesis:
 
 ```bibtex
-@mastersthesis{YourLastNameYYYYthesis,
+@mastersthesis{Zwennes2025pilot_extensions,
   author    = {Rowan Zwennes},
   title     = {Enhancing PILOT Trees with Sparse Multivariate Models via Integrated Regularization},
   school    = {Erasmus University},
   year      = {2025},
   note      = {Code available at: \url{https://github.com/[your-github-username]/thesis-pilot-extensions}}
 }
-
-
-
-
-

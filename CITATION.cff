@@ -6,5 +6,5 @@ authors:
 title: "Enhancing PILOT Trees with Sparse Multivariate Models via Integrated Regularization"
 type: software
 version: 1.0.0
-repository-code: "https://github.com/[rowan-zwennes]/thesis_pilot_extensions"
+repository-code: "https://github.com/rowan-zwennes/thesis_pilot_extensions"
 license: GPL-3.0

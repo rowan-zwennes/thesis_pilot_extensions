@@ -49,12 +49,14 @@ pyenv install 3.10.13
 
 ## 3. Clone and Configure the PILOT Project
 
-Clone the PILOT repository, set the local Python version, and create a dedicated virtual environment.
+Clone this repository, set the local Python version, and create a dedicated virtual environment.
 
 ```bash
-# Clone the main project repository
-git clone https://github.com/STAN-UAntwerp/PILOT.git
-cd PILOT/
+# Clone the project repository from your GitHub
+git clone https://github.com/[your-github-username]/[your-repository-name].git
+
+# Navigate into the newly created project directory
+cd thesis_pilot_extensions/
 
 # Set the Python version for this project directory
 pyenv local 3.10.13
